@@ -13,7 +13,7 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
+  characters = ""; // Resetting the character variable so that the code can be ran many times without interference from the last run
 }
 
 function generatePassword(pass) {
@@ -26,7 +26,7 @@ function generatePassword(pass) {
   // Adding the desired characters if user answers yes
   if (upper === "yes") {
     characters += upperCase;
-  } 
+  }
 
   if (lower === "yes") {
     characters += lowerCase;
