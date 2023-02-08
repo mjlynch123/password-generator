@@ -10,4 +10,4 @@ This project is a password generator that asks the user for input the then creat
 * Uppercase letters
 * Special characters
 
-[Deployed Website](https://mjlynch123.github.io/Week2-Challenge/)
+[Deployed Website](https://mjlynch123.github.io/password-generator/)
